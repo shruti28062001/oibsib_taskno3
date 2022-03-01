@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 100vh;
+    height: 70vh;
+    background-color: burlywood;
+    box-shadow: 0 28px 25px rgba(8,0,0,0.25);
+    border-radius: 8px;
+}
+.input{
+    height: 30px;
+    width: 288px;
+}
+h1{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2rem;
+}
+.inputs{
+    padding-left: 185px;
+}
+input{
+    margin: 18px 0;
+}
+label{
+    padding: 0;
+    margin: 0;
+}
